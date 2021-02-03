@@ -1,50 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1-json-schema-props
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-
-
-            
-            
             [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-            [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-            
-            [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-
-
-
-            
-
-
-            [clojure-kubernetes-client.specs.v1-external-documentation :refer :all]
-
-
-            
-
-
-
-            [clojure-kubernetes-client.specs.float? :refer :all]
-
-
-
-            [clojure-kubernetes-client.specs.float? :refer :all]
-            [clojure-kubernetes-client.specs.float? :refer :all]
-            [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-
-            [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-
-            [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-            [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-
-
-
-
-
-
-
-
-
-
-            )
+            [clojure-kubernetes-client.specs.v1-external-documentation :refer :all])
   (:import (java.io File)))
 
 
