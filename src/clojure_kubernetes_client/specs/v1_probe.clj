@@ -2,13 +2,13 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.v1-exec-action :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-http-get-action :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
+
+
             [clojure-kubernetes-client.specs.v1-tcp-socket-action :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
             )
   (:import (java.io File)))
 

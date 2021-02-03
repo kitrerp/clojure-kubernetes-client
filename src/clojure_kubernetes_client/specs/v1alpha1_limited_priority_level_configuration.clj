@@ -1,7 +1,7 @@
 (ns clojure-kubernetes-client.specs.v1alpha1-limited-priority-level-configuration
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
             [clojure-kubernetes-client.specs.v1alpha1-limit-response :refer :all]
             )
   (:import (java.io File)))

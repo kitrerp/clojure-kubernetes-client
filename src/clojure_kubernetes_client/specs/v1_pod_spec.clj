@@ -1,38 +1,38 @@
 (ns clojure-kubernetes-client.specs.v1-pod-spec
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-affinity :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-container :refer :all]
             [clojure-kubernetes-client.specs.v1-pod-dns-config :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1-ephemeral-container :refer :all]
             [clojure-kubernetes-client.specs.v1-host-alias :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
+
             [clojure-kubernetes-client.specs.v1-local-object-reference :refer :all]
             [clojure-kubernetes-client.specs.v1-container :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
+
+
+
             [clojure-kubernetes-client.specs.v1-pod-readiness-gate :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
             [clojure-kubernetes-client.specs.v1-pod-security-context :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
+
+
+
+
+
             [clojure-kubernetes-client.specs.v1-toleration :refer :all]
             [clojure-kubernetes-client.specs.v1-topology-spread-constraint :refer :all]
             [clojure-kubernetes-client.specs.v1-volume :refer :all]

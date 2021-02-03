@@ -1,11 +1,6 @@
 (ns clojure-kubernetes-client.specs.rbac-v1alpha1-subject
   (:require [clojure.spec.alpha :as s]
-            [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            )
+            [spec-tools.data-spec :as ds])
   (:import (java.io File)))
 
 

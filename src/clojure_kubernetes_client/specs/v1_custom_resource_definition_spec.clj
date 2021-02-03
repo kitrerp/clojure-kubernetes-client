@@ -2,10 +2,10 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.v1-custom-resource-conversion :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-custom-resource-definition-names :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1-custom-resource-definition-version :refer :all]
             )
   (:import (java.io File)))

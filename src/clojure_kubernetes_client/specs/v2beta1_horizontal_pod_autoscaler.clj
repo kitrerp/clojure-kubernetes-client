@@ -1,8 +1,8 @@
 (ns clojure-kubernetes-client.specs.v2beta1-horizontal-pod-autoscaler
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v2beta1-horizontal-pod-autoscaler-spec :refer :all]
             [clojure-kubernetes-client.specs.v2beta1-horizontal-pod-autoscaler-status :refer :all]

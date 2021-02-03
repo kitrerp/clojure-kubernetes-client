@@ -1,8 +1,8 @@
 (ns clojure-kubernetes-client.specs.events-v1-event-series
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.inst? :refer :all]
+
+
             )
   (:import (java.io File)))
 

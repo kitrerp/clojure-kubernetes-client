@@ -1,12 +1,9 @@
 (ns clojure-kubernetes-client.specs.v1-replica-set
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1-replica-set-spec :refer :all]
-            [clojure-kubernetes-client.specs.v1-replica-set-status :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v1-replica-set-status :refer :all])
   (:import (java.io File)))
 
 

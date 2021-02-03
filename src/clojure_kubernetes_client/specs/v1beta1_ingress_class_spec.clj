@@ -1,7 +1,7 @@
 (ns clojure-kubernetes-client.specs.v1beta1-ingress-class-spec
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-typed-local-object-reference :refer :all]
             )
   (:import (java.io File)))

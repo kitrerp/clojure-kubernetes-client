@@ -1,10 +1,7 @@
 (ns clojure-kubernetes-client.specs.v1-api-group-list
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.v1-api-group :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v1-api-group :refer :all])
   (:import (java.io File)))
 
 

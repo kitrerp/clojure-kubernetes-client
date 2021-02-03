@@ -1,23 +1,23 @@
 (ns clojure-kubernetes-client.specs.core-v1-event
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.inst? :refer :all]
-            [clojure-kubernetes-client.specs.inst? :refer :all]
+
+
+
+
+
             [clojure-kubernetes-client.specs.v1-object-reference :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.inst? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-object-reference :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             [clojure-kubernetes-client.specs.core-v1-event-series :refer :all]
             [clojure-kubernetes-client.specs.v1-event-source :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             )
   (:import (java.io File)))
 

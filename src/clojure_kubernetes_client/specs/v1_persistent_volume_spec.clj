@@ -1,11 +1,11 @@
 (ns clojure-kubernetes-client.specs.v1-persistent-volume-spec
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-aws-elastic-block-store-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-azure-disk-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-azure-file-persistent-volume-source :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-ceph-fs-persistent-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-cinder-persistent-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-object-reference :refer :all]
@@ -18,18 +18,18 @@
             [clojure-kubernetes-client.specs.v1-host-path-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-iscsi-persistent-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-local-volume-source :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-nfs-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-volume-node-affinity :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-photon-persistent-disk-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-portworx-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-quobyte-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-rbd-persistent-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-scale-io-persistent-volume-source :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-storage-os-persistent-volume-source :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-vsphere-virtual-disk-volume-source :refer :all]
             )
   (:import (java.io File)))

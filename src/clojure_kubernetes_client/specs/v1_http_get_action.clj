@@ -1,12 +1,7 @@
 (ns clojure-kubernetes-client.specs.v1-http-get-action
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.v1-http-header :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v1-http-header :refer :all])
   (:import (java.io File)))
 
 

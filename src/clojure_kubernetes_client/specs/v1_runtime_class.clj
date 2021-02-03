@@ -1,13 +1,9 @@
 (ns clojure-kubernetes-client.specs.v1-runtime-class
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1-overhead :refer :all]
-            [clojure-kubernetes-client.specs.v1-scheduling :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v1-scheduling :refer :all])
   (:import (java.io File)))
 
 

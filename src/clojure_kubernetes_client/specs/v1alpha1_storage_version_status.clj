@@ -1,7 +1,7 @@
 (ns clojure-kubernetes-client.specs.v1alpha1-storage-version-status
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1alpha1-storage-version-condition :refer :all]
             [clojure-kubernetes-client.specs.v1alpha1-server-storage-version :refer :all]
             )

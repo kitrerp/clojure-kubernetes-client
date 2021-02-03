@@ -2,7 +2,7 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.v1alpha1-group-subject :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1alpha1-service-account-subject :refer :all]
             [clojure-kubernetes-client.specs.v1alpha1-user-subject :refer :all]
             )

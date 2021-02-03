@@ -1,8 +1,8 @@
 (ns clojure-kubernetes-client.specs.authentication-v1-token-request
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1-token-request-spec :refer :all]
             [clojure-kubernetes-client.specs.v1-token-request-status :refer :all]

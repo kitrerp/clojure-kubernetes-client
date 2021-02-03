@@ -1,23 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1-object-meta
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.inst? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.inst? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-managed-fields-entry :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.v1-owner-reference :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v1-owner-reference :refer :all])
   (:import (java.io File)))
 
 

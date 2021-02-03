@@ -1,12 +1,9 @@
 (ns clojure-kubernetes-client.specs.v1-self-subject-access-review
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1-self-subject-access-review-spec :refer :all]
-            [clojure-kubernetes-client.specs.v1-subject-access-review-status :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v1-subject-access-review-status :refer :all])
   (:import (java.io File)))
 
 

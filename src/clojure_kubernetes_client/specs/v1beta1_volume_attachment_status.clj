@@ -2,8 +2,8 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.v1beta1-volume-error :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1beta1-volume-error :refer :all]
             )
   (:import (java.io File)))

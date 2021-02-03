@@ -1,11 +1,11 @@
 (ns clojure-kubernetes-client.specs.v1alpha1-priority-level-configuration-condition
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.inst? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
+
+
             )
   (:import (java.io File)))
 

@@ -2,7 +2,7 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.networking-v1beta1-ingress-backend :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.networking-v1beta1-ingress-rule :refer :all]
             [clojure-kubernetes-client.specs.networking-v1beta1-ingress-tls :refer :all]
             )

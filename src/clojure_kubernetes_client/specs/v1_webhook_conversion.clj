@@ -2,7 +2,7 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.apiextensions-v1-webhook-client-config :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             )
   (:import (java.io File)))
 

@@ -1,17 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1-storage-class
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
             [clojure-kubernetes-client.specs.v1-topology-selector-term :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v1-object-meta :refer :all])
   (:import (java.io File)))
 
 

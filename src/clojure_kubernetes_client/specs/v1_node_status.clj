@@ -2,16 +2,16 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.v1-node-address :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1-node-condition :refer :all]
             [clojure-kubernetes-client.specs.v1-node-config-status :refer :all]
             [clojure-kubernetes-client.specs.v1-node-daemon-endpoints :refer :all]
             [clojure-kubernetes-client.specs.v1-container-image :refer :all]
             [clojure-kubernetes-client.specs.v1-node-system-info :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-attached-volume :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             )
   (:import (java.io File)))
 

@@ -3,7 +3,7 @@
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.v1-custom-resource-definition-names :refer :all]
             [clojure-kubernetes-client.specs.v1-custom-resource-definition-condition :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             )
   (:import (java.io File)))
 

@@ -1,17 +1,17 @@
 (ns clojure-kubernetes-client.specs.v1beta1-mutating-webhook
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.admissionregistration-v1beta1-webhook-client-config :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
             [clojure-kubernetes-client.specs.v1-label-selector :refer :all]
             [clojure-kubernetes-client.specs.v1-label-selector :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1beta1-rule-with-operations :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
+
             )
   (:import (java.io File)))
 

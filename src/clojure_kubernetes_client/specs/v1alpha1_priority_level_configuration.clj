@@ -1,8 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1alpha1-priority-level-configuration
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1alpha1-priority-level-configuration-spec :refer :all]
             [clojure-kubernetes-client.specs.v1alpha1-priority-level-configuration-status :refer :all]

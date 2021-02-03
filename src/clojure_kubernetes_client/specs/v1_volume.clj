@@ -19,7 +19,7 @@
             [clojure-kubernetes-client.specs.v1-glusterfs-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-host-path-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-iscsi-volume-source :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-nfs-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-persistent-volume-claim-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-photon-persistent-disk-volume-source :refer :all]

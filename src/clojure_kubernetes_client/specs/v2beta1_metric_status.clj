@@ -5,9 +5,7 @@
             [clojure-kubernetes-client.specs.v2beta1-external-metric-status :refer :all]
             [clojure-kubernetes-client.specs.v2beta1-object-metric-status :refer :all]
             [clojure-kubernetes-client.specs.v2beta1-pods-metric-status :refer :all]
-            [clojure-kubernetes-client.specs.v2beta1-resource-metric-status :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v2beta1-resource-metric-status :refer :all])
   (:import (java.io File)))
 
 

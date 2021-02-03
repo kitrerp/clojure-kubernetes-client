@@ -1,8 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1beta1-role-binding
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-role-ref :refer :all]
             [clojure-kubernetes-client.specs.rbac-v1beta1-subject :refer :all]

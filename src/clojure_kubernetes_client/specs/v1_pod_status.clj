@@ -4,16 +4,16 @@
             [clojure-kubernetes-client.specs.v1-pod-condition :refer :all]
             [clojure-kubernetes-client.specs.v1-container-status :refer :all]
             [clojure-kubernetes-client.specs.v1-container-status :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-container-status :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
+
             [clojure-kubernetes-client.specs.v1-pod-ip :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.inst? :refer :all]
+
+
+
             )
   (:import (java.io File)))
 

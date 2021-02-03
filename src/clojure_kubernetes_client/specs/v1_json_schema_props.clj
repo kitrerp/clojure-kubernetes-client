@@ -1,49 +1,49 @@
 (ns clojure-kubernetes-client.specs.v1-json-schema-props
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             
             
             [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
             [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
             
             [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-            [clojure-kubernetes-client.specs.any? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.any? :refer :all]
+
+
+
             
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
+
+
             [clojure-kubernetes-client.specs.v1-external-documentation :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
             
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
+
+
             [clojure-kubernetes-client.specs.float? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
+
+
             [clojure-kubernetes-client.specs.float? :refer :all]
             [clojure-kubernetes-client.specs.float? :refer :all]
             [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
             [clojure-kubernetes-client.specs.v1-json-schema-props :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
+
+
+
+
+
+
+
+
+
+
             )
   (:import (java.io File)))
 

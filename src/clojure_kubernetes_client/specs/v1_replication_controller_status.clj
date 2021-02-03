@@ -1,12 +1,12 @@
 (ns clojure-kubernetes-client.specs.v1-replication-controller-status
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
             [clojure-kubernetes-client.specs.v1-replication-controller-condition :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
-            [clojure-kubernetes-client.specs.int? :refer :all]
+
+
+
+
             )
   (:import (java.io File)))
 

@@ -1,30 +1,30 @@
 (ns clojure-kubernetes-client.specs.v1beta1-pod-security-policy-spec
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
+
             [clojure-kubernetes-client.specs.v1beta1-allowed-csi-driver :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             [clojure-kubernetes-client.specs.v1beta1-allowed-flex-volume :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-allowed-host-path :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
+
+
             [clojure-kubernetes-client.specs.v1beta1-fs-group-strategy-options :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
+
+
+
             [clojure-kubernetes-client.specs.v1beta1-host-port-range :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.boolean? :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
+
+
             [clojure-kubernetes-client.specs.v1beta1-run-as-group-strategy-options :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-run-as-user-strategy-options :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-runtime-class-strategy-options :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-se-linux-strategy-options :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-supplemental-groups-strategy-options :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
+
             )
   (:import (java.io File)))
 

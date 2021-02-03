@@ -1,11 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1-resource-quota-list
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-resource-quota :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            [clojure-kubernetes-client.specs.v1-list-meta :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v1-list-meta :refer :all])
   (:import (java.io File)))
 
 

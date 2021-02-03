@@ -1,9 +1,7 @@
 (ns clojure-kubernetes-client.specs.v2beta2-resource-metric-status
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.v2beta2-metric-value-status :refer :all]
-            [clojure-kubernetes-client.specs.string? :refer :all]
-            )
+            [clojure-kubernetes-client.specs.v2beta2-metric-value-status :refer :all])
   (:import (java.io File)))
 
 
