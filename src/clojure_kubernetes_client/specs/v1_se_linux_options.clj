@@ -1,6 +1,10 @@
 (ns clojure-kubernetes-client.specs.v1-se-linux-options
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 

@@ -1,6 +1,9 @@
 (ns clojure-kubernetes-client.specs.v1-api-group
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-group-version-for-discovery :refer :all]
             [clojure-kubernetes-client.specs.v1-server-address-by-client-cidr :refer :all]
             [clojure-kubernetes-client.specs.v1-group-version-for-discovery :refer :all]

@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.kubernetes</groupId>
     <artifactId>client-clojure</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1.2</version>
     <name>client-clojure</name>
     <url>http://kubernetes.io</url>
     <build>
@@ -18,11 +18,12 @@
                         </goals>
                         <configuration>
                             <inputSpec>${generator.spec.path}</inputSpec>
+                            <skipValidateSpec>true</skipValidateSpec>
                             <generatorName>clojure</generatorName>
                             <output>${generator.output.path}</output>
                             <validateSpec>false</validateSpec>
                             <configOptions>
-                                <projectName>exoscale/${generator.package.name}</projectName>
+                                <projectName>kitrerp/${generator.package.name}</projectName>
                                 <baseNamespace>${generator.package.name}</baseNamespace>
                                 <projectVersion>${generator.client.version}</projectVersion>
                             </configOptions>

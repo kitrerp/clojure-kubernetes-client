@@ -1,6 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1beta1-csi-node
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-csi-node-spec :refer :all]
             )

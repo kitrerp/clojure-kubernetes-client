@@ -1,8 +1,17 @@
 (ns clojure-kubernetes-client.specs.v1-security-context
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
             [clojure-kubernetes-client.specs.v1-capabilities :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             [clojure-kubernetes-client.specs.v1-se-linux-options :refer :all]
+            [clojure-kubernetes-client.specs.v1-seccomp-profile :refer :all]
+            [clojure-kubernetes-client.specs.v1-windows-security-context-options :refer :all]
             )
   (:import (java.io File)))
 
@@ -19,6 +28,8 @@
    (ds/opt :runAsNonRoot) boolean?
    (ds/opt :runAsUser) int?
    (ds/opt :seLinuxOptions) v1-se-linux-options
+   (ds/opt :seccompProfile) v1-seccomp-profile
+   (ds/opt :windowsOptions) v1-windows-security-context-options
    })
 
 (def v1-security-context

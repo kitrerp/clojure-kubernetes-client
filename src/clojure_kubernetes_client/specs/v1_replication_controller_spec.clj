@@ -1,6 +1,9 @@
 (ns clojure-kubernetes-client.specs.v1-replication-controller-spec
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.int? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-pod-template-spec :refer :all]
             )
   (:import (java.io File)))

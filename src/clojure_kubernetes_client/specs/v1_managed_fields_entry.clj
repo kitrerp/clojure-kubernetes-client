@@ -1,7 +1,12 @@
 (ns clojure-kubernetes-client.specs.v1-managed-fields-entry
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.inst? :refer :all]
             )
   (:import (java.io File)))
 
@@ -10,7 +15,8 @@
 (def v1-managed-fields-entry-data
   {
    (ds/opt :apiVersion) string?
-   (ds/opt :fields) any?
+   (ds/opt :fieldsType) string?
+   (ds/opt :fieldsV1) any?
    (ds/opt :manager) string?
    (ds/opt :operation) string?
    (ds/opt :time) inst?

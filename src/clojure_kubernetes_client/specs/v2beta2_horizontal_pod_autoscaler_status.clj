@@ -3,6 +3,10 @@
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.v2beta2-horizontal-pod-autoscaler-condition :refer :all]
             [clojure-kubernetes-client.specs.v2beta2-metric-status :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
+            [clojure-kubernetes-client.specs.inst? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             )
   (:import (java.io File)))
 

@@ -1,6 +1,7 @@
 (ns clojure-kubernetes-client.specs.v1beta1-certificate-signing-request-status
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.any? :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-certificate-signing-request-condition :refer :all]
             )
   (:import (java.io File)))

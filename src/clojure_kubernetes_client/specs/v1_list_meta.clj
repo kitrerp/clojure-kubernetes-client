@@ -1,6 +1,10 @@
 (ns clojure-kubernetes-client.specs.v1-list-meta
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 
@@ -9,6 +13,7 @@
 (def v1-list-meta-data
   {
    (ds/opt :continue) string?
+   (ds/opt :remainingItemCount) int?
    (ds/opt :resourceVersion) string?
    (ds/opt :selfLink) string?
    })

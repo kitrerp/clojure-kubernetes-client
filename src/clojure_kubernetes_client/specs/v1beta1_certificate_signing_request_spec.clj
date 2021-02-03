@@ -1,6 +1,13 @@
 (ns clojure-kubernetes-client.specs.v1beta1-certificate-signing-request-spec
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.list? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.any? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 
@@ -11,6 +18,7 @@
    (ds/opt :extra) (s/map-of string? (s/coll-of string?))
    (ds/opt :groups) (s/coll-of string?)
    (ds/req :request) any?
+   (ds/opt :signerName) string?
    (ds/opt :uid) string?
    (ds/opt :usages) (s/coll-of string?)
    (ds/opt :username) string?

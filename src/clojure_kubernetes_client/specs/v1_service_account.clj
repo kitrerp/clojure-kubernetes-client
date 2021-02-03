@@ -1,7 +1,10 @@
 (ns clojure-kubernetes-client.specs.v1-service-account
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
             [clojure-kubernetes-client.specs.v1-local-object-reference :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1-object-reference :refer :all]
             )

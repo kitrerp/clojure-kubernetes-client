@@ -1,7 +1,13 @@
 (ns clojure-kubernetes-client.specs.v1-secret
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.any? :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 
@@ -11,6 +17,7 @@
   {
    (ds/opt :apiVersion) string?
    (ds/opt :data) (s/map-of string? any?)
+   (ds/opt :immutable) boolean?
    (ds/opt :kind) string?
    (ds/opt :metadata) v1-object-meta
    (ds/opt :stringData) (s/map-of string? string?)

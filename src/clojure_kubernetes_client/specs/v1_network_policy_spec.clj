@@ -4,6 +4,7 @@
             [clojure-kubernetes-client.specs.v1-network-policy-egress-rule :refer :all]
             [clojure-kubernetes-client.specs.v1-network-policy-ingress-rule :refer :all]
             [clojure-kubernetes-client.specs.v1-label-selector :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 

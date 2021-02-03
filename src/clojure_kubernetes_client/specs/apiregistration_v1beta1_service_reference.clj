@@ -1,6 +1,9 @@
 (ns clojure-kubernetes-client.specs.apiregistration-v1beta1-service-reference
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             )
   (:import (java.io File)))
 
@@ -10,6 +13,7 @@
   {
    (ds/opt :name) string?
    (ds/opt :namespace) string?
+   (ds/opt :port) int?
    })
 
 (def apiregistration-v1beta1-service-reference

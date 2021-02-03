@@ -1,7 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1-watch-event
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
-            [clojure-kubernetes-client.specs.runtime-raw-extension :refer :all]
+            
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 
@@ -9,7 +10,7 @@
 (declare v1-watch-event-data v1-watch-event)
 (def v1-watch-event-data
   {
-   (ds/req :object) runtime-raw-extension
+   (ds/req :object) any?
    (ds/req :type) string?
    })
 

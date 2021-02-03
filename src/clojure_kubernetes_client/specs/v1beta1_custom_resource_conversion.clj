@@ -1,6 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1beta1-custom-resource-conversion
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.apiextensions-v1beta1-webhook-client-config :refer :all]
             )
   (:import (java.io File)))

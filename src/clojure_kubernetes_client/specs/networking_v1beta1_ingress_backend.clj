@@ -1,6 +1,8 @@
 (ns clojure-kubernetes-client.specs.networking-v1beta1-ingress-backend
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.v1-typed-local-object-reference :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             
             )
   (:import (java.io File)))
@@ -9,8 +11,9 @@
 (declare networking-v1beta1-ingress-backend-data networking-v1beta1-ingress-backend)
 (def networking-v1beta1-ingress-backend-data
   {
-   (ds/req :serviceName) string?
-   (ds/req :servicePort) any?
+   (ds/opt :resource) v1-typed-local-object-reference
+   (ds/opt :serviceName) string?
+   (ds/opt :servicePort) any?
    })
 
 (def networking-v1beta1-ingress-backend

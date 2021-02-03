@@ -1,6 +1,7 @@
 (ns clojure-kubernetes-client.specs.v1-client-ip-config
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             )
   (:import (java.io File)))
 

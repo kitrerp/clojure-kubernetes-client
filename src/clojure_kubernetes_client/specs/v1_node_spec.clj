@@ -2,7 +2,12 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.v1-node-config-source :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-taint :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
             )
   (:import (java.io File)))
 
@@ -13,6 +18,7 @@
    (ds/opt :configSource) v1-node-config-source
    (ds/opt :externalID) string?
    (ds/opt :podCIDR) string?
+   (ds/opt :podCIDRs) (s/coll-of string?)
    (ds/opt :providerID) string?
    (ds/opt :taints) (s/coll-of v1-taint)
    (ds/opt :unschedulable) boolean?

@@ -1,6 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1beta1-token-review
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-token-review-spec :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-token-review-status :refer :all]

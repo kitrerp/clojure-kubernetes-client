@@ -1,7 +1,14 @@
 (ns clojure-kubernetes-client.specs.v1-container-status
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-container-state :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
             [clojure-kubernetes-client.specs.v1-container-state :refer :all]
             )
   (:import (java.io File)))
@@ -17,6 +24,7 @@
    (ds/req :name) string?
    (ds/req :ready) boolean?
    (ds/req :restartCount) int?
+   (ds/opt :started) boolean?
    (ds/opt :state) v1-container-state
    })
 

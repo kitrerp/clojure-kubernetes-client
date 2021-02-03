@@ -1,11 +1,23 @@
 (ns clojure-kubernetes-client.specs.v1beta1-event
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
+            [clojure-kubernetes-client.specs.inst? :refer :all]
+            [clojure-kubernetes-client.specs.inst? :refer :all]
             [clojure-kubernetes-client.specs.v1-event-source :refer :all]
+            [clojure-kubernetes-client.specs.inst? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-reference :refer :all]
             [clojure-kubernetes-client.specs.v1-object-reference :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-event-series :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 
@@ -21,7 +33,7 @@
    (ds/opt :deprecatedSource) v1-event-source
    (ds/req :eventTime) inst?
    (ds/opt :kind) string?
-   (ds/opt :metadata) v1-object-meta
+   (ds/req :metadata) v1-object-meta
    (ds/opt :note) string?
    (ds/opt :reason) string?
    (ds/opt :regarding) v1-object-reference

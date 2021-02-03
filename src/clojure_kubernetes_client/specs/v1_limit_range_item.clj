@@ -1,6 +1,12 @@
 (ns clojure-kubernetes-client.specs.v1-limit-range-item
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 
@@ -13,7 +19,7 @@
    (ds/opt :max) (s/map-of string? string?)
    (ds/opt :maxLimitRequestRatio) (s/map-of string? string?)
    (ds/opt :min) (s/map-of string? string?)
-   (ds/opt :type) string?
+   (ds/req :type) string?
    })
 
 (def v1-limit-range-item

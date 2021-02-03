@@ -1,7 +1,10 @@
 (ns clojure-kubernetes-client.specs.v2beta2-horizontal-pod-autoscaler-spec
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.v2beta2-horizontal-pod-autoscaler-behavior :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             [clojure-kubernetes-client.specs.v2beta2-metric-spec :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             [clojure-kubernetes-client.specs.v2beta2-cross-version-object-reference :refer :all]
             )
   (:import (java.io File)))
@@ -10,6 +13,7 @@
 (declare v2beta2-horizontal-pod-autoscaler-spec-data v2beta2-horizontal-pod-autoscaler-spec)
 (def v2beta2-horizontal-pod-autoscaler-spec-data
   {
+   (ds/opt :behavior) v2beta2-horizontal-pod-autoscaler-behavior
    (ds/req :maxReplicas) int?
    (ds/opt :metrics) (s/coll-of v2beta2-metric-spec)
    (ds/opt :minReplicas) int?

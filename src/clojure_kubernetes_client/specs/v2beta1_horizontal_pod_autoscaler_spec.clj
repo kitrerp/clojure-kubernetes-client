@@ -1,7 +1,9 @@
 (ns clojure-kubernetes-client.specs.v2beta1-horizontal-pod-autoscaler-spec
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             [clojure-kubernetes-client.specs.v2beta1-metric-spec :refer :all]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             [clojure-kubernetes-client.specs.v2beta1-cross-version-object-reference :refer :all]
             )
   (:import (java.io File)))

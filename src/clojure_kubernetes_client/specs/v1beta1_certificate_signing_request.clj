@@ -1,6 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1beta1-certificate-signing-request
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-certificate-signing-request-spec :refer :all]
             [clojure-kubernetes-client.specs.v1beta1-certificate-signing-request-status :refer :all]

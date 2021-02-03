@@ -1,6 +1,7 @@
 (ns clojure-kubernetes-client.specs.v1-service-status
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.v1-condition :refer :all]
             [clojure-kubernetes-client.specs.v1-load-balancer-status :refer :all]
             )
   (:import (java.io File)))
@@ -9,6 +10,7 @@
 (declare v1-service-status-data v1-service-status)
 (def v1-service-status-data
   {
+   (ds/opt :conditions) (s/coll-of v1-condition)
    (ds/opt :loadBalancer) v1-load-balancer-status
    })
 

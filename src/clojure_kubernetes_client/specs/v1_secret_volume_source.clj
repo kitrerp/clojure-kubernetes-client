@@ -1,7 +1,10 @@
 (ns clojure-kubernetes-client.specs.v1-secret-volume-source
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.int? :refer :all]
             [clojure-kubernetes-client.specs.v1-key-to-path :refer :all]
+            [clojure-kubernetes-client.specs.boolean? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             )
   (:import (java.io File)))
 

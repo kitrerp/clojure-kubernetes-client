@@ -10,6 +10,7 @@
             [clojure-kubernetes-client.specs.v1-csi-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-downward-api-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-empty-dir-volume-source :refer :all]
+            [clojure-kubernetes-client.specs.v1-ephemeral-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-fc-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-flex-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-flocker-volume-source :refer :all]
@@ -18,6 +19,7 @@
             [clojure-kubernetes-client.specs.v1-glusterfs-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-host-path-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-iscsi-volume-source :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-nfs-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-persistent-volume-claim-volume-source :refer :all]
             [clojure-kubernetes-client.specs.v1-photon-persistent-disk-volume-source :refer :all]
@@ -45,6 +47,7 @@
    (ds/opt :csi) v1-csi-volume-source
    (ds/opt :downwardAPI) v1-downward-api-volume-source
    (ds/opt :emptyDir) v1-empty-dir-volume-source
+   (ds/opt :ephemeral) v1-ephemeral-volume-source
    (ds/opt :fc) v1-fc-volume-source
    (ds/opt :flexVolume) v1-flex-volume-source
    (ds/opt :flocker) v1-flocker-volume-source

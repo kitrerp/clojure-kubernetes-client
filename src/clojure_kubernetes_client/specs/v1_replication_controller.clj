@@ -1,6 +1,8 @@
 (ns clojure-kubernetes-client.specs.v1-replication-controller
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
+            [clojure-kubernetes-client.specs.string? :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.v1-object-meta :refer :all]
             [clojure-kubernetes-client.specs.v1-replication-controller-spec :refer :all]
             [clojure-kubernetes-client.specs.v1-replication-controller-status :refer :all]

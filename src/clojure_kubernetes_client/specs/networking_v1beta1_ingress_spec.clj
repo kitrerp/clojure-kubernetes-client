@@ -2,6 +2,7 @@
   (:require [clojure.spec.alpha :as s]
             [spec-tools.data-spec :as ds]
             [clojure-kubernetes-client.specs.networking-v1beta1-ingress-backend :refer :all]
+            [clojure-kubernetes-client.specs.string? :refer :all]
             [clojure-kubernetes-client.specs.networking-v1beta1-ingress-rule :refer :all]
             [clojure-kubernetes-client.specs.networking-v1beta1-ingress-tls :refer :all]
             )
@@ -12,6 +13,7 @@
 (def networking-v1beta1-ingress-spec-data
   {
    (ds/opt :backend) networking-v1beta1-ingress-backend
+   (ds/opt :ingressClassName) string?
    (ds/opt :rules) (s/coll-of networking-v1beta1-ingress-rule)
    (ds/opt :tls) (s/coll-of networking-v1beta1-ingress-tls)
    })
